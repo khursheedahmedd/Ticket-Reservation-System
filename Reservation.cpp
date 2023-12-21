@@ -7,11 +7,11 @@
 
 #include "Reservation.hpp"
 
-// Reservation::Reservation()
-// {
-//     count = 0;
-//     head = NULL;
-// }
+Reservation::Reservation()
+{
+    count = 0;
+    head = NULL;
+}
 
 void Reservation::bookTicket(Seat *newSeat)
 {
